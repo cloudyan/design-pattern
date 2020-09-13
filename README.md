@@ -95,3 +95,4 @@
 - [菜鸟教程: 设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
 - https://blog.csdn.net/mq2553299/article/details/80962335
 - https://blog.csdn.net/cooldragon/article/details/52164380
+- [Observer vs Pub-Sub pattern](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
