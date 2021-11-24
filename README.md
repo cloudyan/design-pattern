@@ -2,63 +2,63 @@
 
 学习设计模式
 
-设计模式（Design pattern）代表了最佳的实践，通常被有经验的面向对象的软件开发人员所采用。设计模式是软件开发人员在软件开发过程中面临的一般问题的解决方案。这些解决方案是众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。
+设计模式（Design pattern）代表了最佳的实践，通常被有经验的面向对象的软件开发人员所采用。
+
+设计模式是软件开发人员在软件开发过程中面临的一般问题的解决方案。
+
+这些解决方案是众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。
 
 ## 设计模式的分类
 
-看到一个模式, 就能迅速说出其关键特征, 适用场景, 举例
+看到一个模式, 就能迅速说出其关键特征, 适用场景, 举例。并手动操作一遍示例, 加深理解
 
-可参考 [菜鸟教程: 设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html) 学习透彻
-
-并手动操作一遍示例, 加深理解
-
-- 创建型模式: 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
-  - 工厂模式 Factory Method(类)
-  - 抽象工厂模式 Abstract Factory
-  - 单例模式 Singleton
-  - 建造者模式 Builder
-  - 原型模式 Prototype
-- 结构型模式: 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
+- 创建型模式（工厂方法）: 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
+  - 1. 工厂模式 Factory Method(类)
+  - 2. 抽象工厂模式 Abstract Factory
+  - 3. 单例模式 Singleton
+  - 4. 建造者模式 Builder
+  - 5. 原型模式 Prototype
+- 结构型模式（适配器）: 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
   - 接口适配
-    - 适配器模式 Adapter(类)
-    - 桥接模式 Bridge
-    - 外观模式 Facade
+    - 6. 适配器模式 Adapter(类)
+    - 7. 桥接模式 Bridge
+    - 8. 外观模式 Facade
   - 抽象集合
-    - 组合模式 Composite
+    - 9. 组合模式 Composite
   - 行为扩展
-    - 装饰器模式 Decorator
+    - 10. 装饰器模式 Decorator
   - 性能与对象访问
-    - 享元模式 Flyweight
-    - 代理模式 Proxy
-    - 过滤器模式 Filter、Criteria
+    - 11. 享元模式 Flyweight
+    - 12. 代理模式 Proxy
+    - 13. 过滤器模式 Filter、Criteria
 - 行为型模式: 这些设计模式特别关注对象之间的通信。
   - 对象去耦
-    - 中介者模式 Mediator
-    - 观察者模式 Observer
+    - 14. 中介者模式 Mediator
+    - 15. 观察者模式 Observer
   - 抽象集合
-    - 迭代器模式 Iterator
+    - 16. 迭代器模式 Iterator
   - 行为扩展
-    - 访问者模式 Visitor
-    - 责任链模式 Chain of Responsibility（职责链模式）
+    - 17. 访问者模式 Visitor
+    - 18. 责任链模式 Chain of Responsibility（职责链模式）
   - 算法封装
-    - 模板模式 Template Method(类)
-    - 策略模式 Strategy
-    - 命令模式 Command
+    - 19. 模板模式 Template Method(类)
+    - 20. 策略模式 Strategy
+    - 21. 命令模式 Command
   - 对象状态
-    - 备忘录模式 Memento
-    - 状态模式 State
+    - 22. 备忘录模式 Memento
+    - 23. 状态模式 State
   - 其它
-    - 解释器模式 Interpreter(类)
-    - 空对象模式 Null Object
+    - 24. 解释器模式 Interpreter(类)
+    - 25. 空对象模式 Null Object
 - J2EE 模式: 这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的。
-  - MVC 模式 MVC
-  - 业务代表模式 Business Delegate
-  - 组合实体模式 Composite Entity
-  - 数据访问对象模式 Data Access Object
-  - 前端控制器模式 Front Controller
-  - 拦截过滤器模式 Intercepting Filter
-  - 服务定位器模式 Service Locator
-  - 传输对象模式 Transfer Object
+  - 31. MVC 模式 MVC
+  - 32. 业务代表模式 Business Delegate
+  - 33. 组合实体模式 Composite Entity
+  - 34. 数据访问对象模式 Data Access Object
+  - 35. 前端控制器模式 Front Controller
+  - 36. 拦截过滤器模式 Intercepting Filter
+  - 37. 服务定位器模式 Service Locator
+  - 38. 传输对象模式 Transfer Object
 
 设计模式之间的关系：
 
@@ -96,3 +96,7 @@
 - https://blog.csdn.net/mq2553299/article/details/80962335
 - https://blog.csdn.net/cooldragon/article/details/52164380
 - [Observer vs Pub-Sub pattern](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
+- https://github.com/ascoders/weekly#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F
+- https://github.com/fbeline/design-patterns-JS
+- https://github.com/tcorral/Design-Patterns-in-Javascript
+- https://github.com/MiYogurt/ts-design-pattern
