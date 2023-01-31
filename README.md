@@ -39,7 +39,7 @@
     - 迭代器模式 Iterator
   - 行为扩展
     - 访问者模式 Visitor
-    - 责任链模式 Chain of Responsibility（职责链模式）
+    - 责任链模式 Chain of Responsibility
   - 算法封装
     - 模板模式 Template Method(类)
     - 策略模式 Strategy
@@ -96,3 +96,9 @@
 - https://blog.csdn.net/mq2553299/article/details/80962335
 - https://blog.csdn.net/cooldragon/article/details/52164380
 - [Observer vs Pub-Sub pattern](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
+- https://github.com/kamranahmedse/design-patterns-for-humans
+- https://github.com/fbeline/design-patterns-JS
+- https://github.com/Sairyss/domain-driven-hexagon
+- https://github.com/rmanguinho/clean-ts-api
+- https://github.com/RefactoringGuru/design-patterns-typescript
+- https://github.com/rmanguinho/advanced-node 收费教程
