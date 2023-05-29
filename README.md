@@ -101,4 +101,6 @@
 - https://github.com/Sairyss/domain-driven-hexagon
 - https://github.com/rmanguinho/clean-ts-api
 - https://github.com/RefactoringGuru/design-patterns-typescript
+  - [深入设计模式](https://refactoringguru.cn/design-patterns/typescript)
 - https://github.com/rmanguinho/advanced-node 收费教程
+- https://github.com/ryouaki/ECMAScript2016-Design-Patterns

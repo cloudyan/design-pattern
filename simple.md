@@ -6,6 +6,17 @@
 - 结构型模式: 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
 - 行为型模式: 这些设计模式特别关注对象之间的通信。
 
+## 什么是 GOF（四人帮，全拼 Gang of Four）？
+
+在 1994 年，由 Erich Gamma、Richard Helm、Ralph Johnson 和 John Vlissides 四人合著出版了一本名为 Design Patterns - Elements of Reusable Object-Oriented Software（中文译名：设计模式 - 可复用的面向对象软件元素） 的书，该书首次提到了软件开发中设计模式的概念。
+
+四位作者合称 GOF（四人帮，全拼 Gang of Four）。他们所提出的设计模式主要是基于以下的面向对象设计原则。
+
+- 对接口编程而不是对实现编程。
+- 优先使用对象组合而不是继承。
+
+## GOF 23 个设计模式
+
 1. 工厂模式 Factory Method(类)
 2. 抽象工厂模式 Abstract Factory
 3. 单例模式 Singleton
@@ -32,3 +43,15 @@
 24. 解释器模式 Interpreter(类)
 25. 空对象模式 Null Object
 
+## J2EE 模式
+
+这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的。
+
+- MVC 模式（MVC Pattern）
+- 业务代表模式（Business Delegate Pattern）
+- 组合实体模式（Composite Entity Pattern）
+- 数据访问对象模式（Data Access Object Pattern）
+- 前端控制器模式（Front Controller Pattern）
+- 拦截过滤器模式（Intercepting Filter Pattern）
+- 服务定位器模式（Service Locator Pattern）
+- 传输对象模式（Transfer Object Pattern）
