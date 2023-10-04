@@ -17,7 +17,7 @@
 
 ## GOF 23 个设计模式
 
-1. 工厂模式 Factory Method(类)
+1. 工厂方法模式 Factory Method(类)
 2. 抽象工厂模式 Abstract Factory
 3. 单例模式 Singleton
 4. 建造者模式 Builder
